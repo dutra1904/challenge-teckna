@@ -17,7 +17,7 @@ logging.info("Fetching data from the spreadsheet.")
 
 # Opening the spreadsheet
 spreadsheet = client.open_by_key("1B8LbphaK66cEvUmg0NK69WXAf7JzmkdcN46PF-cA6No")
-sheet = spreadsheet.sheet1  # Seleciona a primeira aba
+sheet = spreadsheet.sheet1  
 
 # Fetching all rows from the spreadsheet
 all_values = sheet.get_all_values()
@@ -64,7 +64,7 @@ def calculate_status(row):
 logging.info("Updating the spreadsheet with new results.")
 df["Situação"], df["Nota para Aprovação Final"] = zip(*df.apply(calculate_status, axis=1))
 
-# Updating only the "Status" and "FinalGradeRequirement" columns in the spreadsheet
+# Updating only the "Situação" and "Nota paara Aprovação Final" columns in the spreadsheet
 situation_column_index = headers.index("Situação") + 1  
 final_grade_column_index = headers.index("Nota para Aprovação Final") + 1
 
