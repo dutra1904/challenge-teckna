@@ -6,7 +6,7 @@ This application calculates student grades and attendance based on data from a G
 
 1. Clone this repository:
    ```bash
-   git clone <repository-link>
+   git clone <https://github.com/dutra1904/challenge-teckna.git>
 
 2. Navigate to the project folder:
    ```bash
