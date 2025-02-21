@@ -2,11 +2,24 @@
 
 This application calculates student grades and attendance based on data from a Google Sheet. It applies predefined rules to determine if a student is approved, needs a final test, or has failed.
 
-## Installation
+## 🚀 Technologies Used  
+- **Python**  
+- **Google Sheets API**  
+- **Pandas**
+
+## 📌 Features  
+✅ Read data from a Google Sheets spreadsheet  
+✅ Calculate the average of grades P1, P2 and P3  
+✅ Check students' status (Pass, Fail, Final Exam.)  
+✅ Calculate the minimum passing grade if necessary  
+✅ Update spreadsheet results
+
+## 🔧 How to perform
+### 1️⃣ Installation
 
 1. Clone this repository:
    ```bash
-   git clone <https://github.com/dutra1904/challenge-teckna.git>
+   git clone https://github.com/dutra1904/challenge-teckna.git
 
 2. Navigate to the project folder:
    ```bash
@@ -16,13 +29,7 @@ This application calculates student grades and attendance based on data from a G
      ```bash
      pip install -r requirements.txt
 
-  ## Running the Application
-  Run the script using Python:
-  ```bash
-  python main.py
-````
-
-## Setting up Google Sheets API Credentials
+### 2️⃣ Setting up Google Sheets API Credentials
 
 To run this project, you need to create a service account and download the credentials file.
 
@@ -34,10 +41,20 @@ To run this project, you need to create a service account and download the crede
 6. Place the file in the root directory of this project.
 
 
-## Spreadsheet Link
-You can view the Google Sheet used by the application here: [Click here to access the spreadsheet](https://docs.google.com/spreadsheets/d/1B8LbphaK66cEvUmg0NK69WXAf7JzmkdcN46PF-cA6No/edit?usp=sharing)
+### 3️⃣ Spreadsheet Link
+You can view the Google Sheet used by the application here: [Click here or the image to access the spreadsheet](https://docs.google.com/spreadsheets/d/1B8LbphaK66cEvUmg0NK69WXAf7JzmkdcN46PF-cA6No/edit?usp=sharing)
 
-## Logging 
+[![Picture of the Spreadsheet](https://github.com/user-attachments/assets/62729fb3-386a-4deb-924e-5c8c353075c6)](https://docs.google.com/spreadsheets/d/1B8LbphaK66cEvUmg0NK69WXAf7JzmkdcN46PF-cA6No/edit?usp=sharing)
+   > You can change any of these headears `P1`, `P2`, `P3`, `Faltas`. And see how the program operate
+
+### 4️⃣ Running the Application
+
+  Run the script using Python:
+  ```bash
+  python main.py
+````
+
+## ⚙️ Logging 
 
 The application includes logging to monitor activities such as:
 
@@ -48,13 +65,8 @@ The application includes logging to monitor activities such as:
   
 Logs will be printed to the console for easy debugging.
 
-## Notes 
+## ⚙️ Notes 
 
 - Ensure that the file `challenge-maria-clara.json` with the service account credentials is placed in the project root directory.
 - Replace `SPREADSHEET_ID` in the spreadsheet link above with the actual ID of your Google Sheet.
 - Make sure the spreadsheet headers match the expected format: `P1`, `P2`, `P3`, `Absences`, `Status`, and `FinalGradeRequirement`.
-
-
-
-
-
