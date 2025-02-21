@@ -22,6 +22,18 @@ This application calculates student grades and attendance based on data from a G
   python main.py
 ````
 
+## Setting up Google Sheets API Credentials
+
+To run this project, you need to create a service account and download the credentials file.
+
+1. Go to the [Google Cloud Console](https://console.cloud.google.com/).
+2. Create a new project or select an existing one.
+3. Enable the "Google Sheets API" and "Google Drive API" for the project.
+4. Create a service account and generate a JSON key file.
+5. Download the JSON key file and rename it to `challenge-maria-clara.json`.
+6. Place the file in the root directory of this project.
+
+
 ## Spreadsheet Link
 You can view the Google Sheet used by the application here: [Click here to access the spreadsheet](https://docs.google.com/spreadsheets/d/1B8LbphaK66cEvUmg0NK69WXAf7JzmkdcN46PF-cA6No/edit?usp=sharing)
 
