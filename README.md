@@ -2,19 +2,19 @@
 
 This application calculates student grades and attendance based on data from a Google Sheet. It applies predefined rules to determine if a student is approved, needs a final test, or has failed.
 
-## 🚀 Technologies Used  
+## Technologies Used  
 - **Python**  
 - **Google Sheets API**  
 - **Pandas**
 
-## 📌 Features  
+## Features  
 ✅ Read data from a Google Sheets spreadsheet  
 ✅ Calculate the average of grades P1, P2 and P3  
 ✅ Check students' status (Pass, Fail, Final Exam.)  
 ✅ Calculate the minimum passing grade if necessary  
 ✅ Update spreadsheet results
 
-## 🔧 How to perform
+## How to perform
 ### 1️⃣ Installation
 
 1. Clone this repository:
