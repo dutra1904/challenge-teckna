@@ -72,7 +72,7 @@ situation_values = df["Situação"].tolist()
 final_grade_values = df["Nota para Aprovação Final"].tolist()
 
 # Batch update to avoid exceeding quota
-for i, (situation, final_grade) in enumerate(zip(situation_values, final_grade_values), start=4):  # Começa na linha 4
+for i, (situation, final_grade) in enumerate(zip(situation_values, final_grade_values), start=4):
     sheet.update_cell(i, situation_column_index, situation)
     sheet.update_cell(i, final_grade_column_index, final_grade)
 
