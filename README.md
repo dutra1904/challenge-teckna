@@ -82,4 +82,6 @@ Logs will be printed to the console for easy debugging.
 
 - Ensure that the file `challenge-maria-clara.json` with the service account credentials is placed in the project root directory.
 - Replace `SPREADSHEET_ID` in the spreadsheet link above with the actual ID of your Google Sheet.
-- Make sure the spreadsheet headers match the expected format: `P1`, `P2`, `P3`, `Absences`, `Status`, and `FinalGradeRequirement`.
+- Make sure the spreadsheet headers match the expected format: `P1`, `P2`, `P3`, `Faltaas`, `Situação`, and `Nota para Aprovação Final`.
+
+   > Made by Maria Clara Dutra
